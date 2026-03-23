@@ -21,12 +21,12 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("36326629"))
+API_HASH = getenv("823e6e8c081fe363e6d739b39dc19e07")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "SHIVANSHDEVS")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@II_YOUR_MADARA_II")
 BOT_USERNAME = getenv("BOT_USERNAME", "SapnaMusicRobot")
 BOT_NAME = getenv("BOT_NAME", "SAPNA")
 ASSUSERNAME = getenv("ASSUSERNAME", "KHWAAISH_HOON")
@@ -45,13 +45,13 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 DEEP_API = getenv("DEEP_API")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itzshukla/STRANGER-MUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "lol")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ITSZSHUKLA")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MASTIWITHFRIENDSXD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MADARABITSUPPROT412")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+8SNYdrdX-hE3Y2E1")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -93,18 +93,18 @@ DEBUG_IGNORE_LOG = True
 
 ###### IMAGE URLS ######
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/ak96mx.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/ak96mx.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/lrwbj6.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/ak96mx.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/aesldg.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/aesldg.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/aesldg.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/aesldg.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/aesldg.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/aesldg.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/aesldg.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/aesldg.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/nzhqh9.png")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/oh07fz.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
+STATS_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/uqzcnl.png"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/uqzcnl.png"
+STREAM_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
 
 
 SHASHANK_IMG = [
