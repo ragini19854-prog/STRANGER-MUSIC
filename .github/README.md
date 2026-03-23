@@ -1,170 +1,134 @@
-<h2 align="center">
-    ─「 𝐒ᴛʀᴀɴɢᴇʀ 𝘅 𝐌ᴜsɪᴄ 」─
+# HINATA-MUSIC-BY-MADARA-DFS
 
-</h2>
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ㅤ+𝚆𝙴𝙻𝙲𝙾𝙼𝙴+𝚃𝙾+𝚂𝚃𝚁𝙰𝙽𝙶𝙴𝚁+𝙼𝚄𝚂𝙸𝙲+𝚁𝙴𝙿𝙾+;ㅤ+𝚃𝙷𝙸𝚂+𝙸𝚂+𝙰+𝙰𝙳𝚅𝙰𝙽𝙲𝙴+𝙼𝚄𝚂𝙸𝙲+𝙱𝙾𝚃;𝙿𝙾𝚆𝙴𝚁𝙴𝙳+𝙱𝚈+☞+𝗧𝗛𝗘+𝗧𝗘𝗔𝗠+𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥)](https://github.com/itzshukla/STRANGER-MUSIC)
-
-
+# 🎀 𝙃𝙄𝙉𝘼𝙏𝘼 𝙈𝙐𝙎𝙄𝘾 🎀
 
 <p align="center">
-  <img src="https://telegra.ph/file/13afb9ee5c5da17930f1e.png">
+  <img src="https://files.catbox.moe/87toi6.png" width="250" style="border-radius:20px;" />
 </p>
 
-
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗙𝗢𝗥𝗞+𝗧𝗛𝗜𝗦+𝗥𝗘𝗣𝗢+𝗕𝗘𝗙𝗢𝗥𝗘+𝗗𝗘𝗣𝗟𝗢𝗬)
-
-
-## 🍁 About This Bot :
-
-</p>
-<p align='center'>
-    This repo will use to deploy for music playing bot of telegram
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=2500&color=FF69B4&center=true&vCenter=true&width=800&lines=HINATA+MUSIC;VC+MUSIC+BOT;FAST+%7C+SMOOTH+%7C+POWERFUL" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Telegram-Bot-blue?style=for-the-badge&logo=telegram">
+  <img src="https://img.shields.io/badge/MongoDB-Database-green?style=for-the-badge&logo=mongodb">
+</p>
 
-## ♢ How to make your own :
+---
 
+## 🚀 DEPLOY IN ONE CLICK
 
-#### ♢ Click on This Drop-down and get more details
-<br>
-<details>
-  <summary><b>Deploy on Heroku:</b></summary>
+<p align="center">
 
+<a href="https://heroku.com/deploy?template=https://github.com/yourusername/hinata-music-bot">
+  <img src="https://img.shields.io/badge/Deploy-Heroku-purple?style=for-the-badge&logo=heroku">
+</a>
 
-1. Fork This Repo
-2. Click on the button to Deploy and follow steps
+<a href="https://render.com/deploy?repo=https://github.com/yourusername/hinata-music-bot">
+  <img src="https://img.shields.io/badge/Deploy-Render-blue?style=for-the-badge&logo=render">
+</a>
 
-<h4> So Follow Above Steps 👆 and then deploy other wise bot won't work</h4>
+<a href="https://railway.app/new/template?template=https://github.com/yourusername/hinata-music-bot">
+  <img src="https://img.shields.io/badge/Deploy-Railway-black?style=for-the-badge&logo=railway">
+</a>
 
-Press the below button to Fast deploy on Heroku/Raiwlay
-Either you could locally host or deploy on [Heroku](https://heroku.com)
-### 💜 Heroku
+</p>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/itzshukla/STRANGER-MUSIC"> <img src="https://www.herokucdn.com/deploy/button.svg"></a></p>
+---
 
-<br>
+## 🎧 MUSIC FEATURES
 
+* Voice Chat Streaming
+* Multi Platform Support
+* Loop / Shuffle / Seek
+* Queue System
 
-then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
+Supported:
 
-<details>
-  <summary><b>Features:</b></summary>
-  
-<p>
+* YouTube
+* Spotify
+* Apple Music
+* Resso
+* SoundCloud
 
-🚀Features<p>
-💥Superfast⚡️ download and stream links.<br>
-💥No ads in playing songs.<br>
-💥Superfast interface.<br>
-💥Updates channel Support.<br>
-💥Mongodb database support for broadcasting.<br>
-💥User Freindly Interface.<br>
-💥Ping check.<br>
-💥Kickme and Video Chat Notifier are Available.<br>
-💥Real time CPU , RAM , Internet usage. <br>
-💥All unwanted code removed. <br>
-💥A lot more tired of writing check out by deploying it. 
-</details>
-<details>
-  <summary><b>Host it on VPS Locally :</b></summary>
+---
 
+## 🎮 UI SYSTEM
 
-```py
-sudo apt-get install python3-pip ffmpeg -y
-sudo apt-get install python3-pip -y
-sudo pip3 install -U pip
-curl -fssL
-https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
-git clone https://github.com/itzshukla/STRANGER-MUSIC && cd STRANGER-MUSIC
-pip3 install -U -r requirements.txt
-bash setup
-sudo apt install tmux
-tmux kill-session
-tmux
-bash start
-Ctrl+b then d
+* Video Start UI
+* Button Controls
+* Help Menu Grid
+* Clean Telegram UI
+
+---
+
+## 👮 ADMIN COMMANDS
+
+| Command   | Function    |
+| --------- | ----------- |
+| `/ban`    | Ban user    |
+| `/mute`   | Mute user   |
+| `/warn`   | Warn system |
+| `/filter` | Auto reply  |
+
+---
+
+## 📢 EXTRA FEATURES
+
+* Broadcast
+* TagAll
+* Playlist System
+* Global Ban
+
+---
+
+## 🎉 AUTO SYSTEM
+
+* Welcome (Image + Buttons)
+* Auto Clean Messages
+
+---
+
+## ⚙️ INSTALL
+
+```bash id="uvl4a7"
+git clone https://github.com/yourusername/hinata-music-bot
+cd hinata-music-bot
+
+pip install -r requirements.txt
+python bot.py
 ```
 
-and to stop the whole bot,
- do <kbd>CTRL</kbd>+<kbd>C</kbd>
+---
 
-Setting up things
+## 🔧 CONFIG
 
-If you're on Heroku, just add these in the Environmental Variables
-or if you're Locally hosting, create a file named `sample.env` in the root directory and add all the variables there.
-An example of `sample.env` file:
+```python id="7z7v1l"
+API_ID = ""
+API_HASH = ""
+BOT_TOKEN = ""
+STRING_SESSION = ""
 
-```py
-API_ID=
-API_HASH=
-BOT_TOKEN=
-LOGGER_ID=
-MONGO_DB_URI=
-OWNER_ID=
-STRING_SESSION=
+OWNER_ID = ""
+MONGO_URI = ""
+
+START_VIDEO = ""
+PING_VIDEO = ""
+WELCOME_IMAGE = ""
+CUSTOM_THUMB = ""
 ```
-  </details>
 
-<details>
-  <summary><b>Vars and Details :</b></summary>
+---
 
-`API_ID` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
+## 👑 OWNER
 
-`API_HASH` : Goto [my.telegram.org](https://my.telegram.org) to obtain this.
+MADARA
+https://t.me/II_YOUR_MADARA_II
 
-`BOT_TOKEN` : Get the bot token from [@BotFather](https://telegram.dog/BotFather)
-  
-`OWNER_ID` : Your Telegram User ID
+---
 
-`LOGGER_ID` : Your Telegram Chat ID For logs Where Bot and Assistant Id Should Be AdMin! 
-
-`STRING_SESSION` : Add String session for assistant to play songs on voice chat.
-
-`DATABASE_URL` : MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can click on logo below!
-
-
- Option Vars
-
-`UPDATES_CHANNEL` : Put a Public Channel Username, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.
- </details>
-
-<details>
-  <summary><b>How to Use :</b></summary>
-
-:warning: **Before using the  bot, don't forget to add the bot to the `Logger_Chat` as an Admin**
- 
-- `/start` : To check if the bot is alive or not.
-
-- `/play ᴏʀ /vplay ᴏʀ /cplay` : sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.
-
-- `/playforce ᴏʀ /vplayforce ᴏʀ /cplayforce` : **ғᴏʀᴄᴇ ᴩʟᴀʏ** sᴛᴏᴩs ᴛʜᴇ ᴏɴɢᴏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴛʀᴀᴄᴋ.
-
-- `/channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ]` : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.
-
-- `/seek` : sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
-
-- `/seekback` : ʙᴀᴄᴋᴡᴀʀᴅ sᴇᴇᴋ ᴛʜᴇ sᴛʀᴇᴀᴍ ᴛᴏ ᴛʜᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴅᴜʀᴀᴛɪᴏɴ.
-
-- `/pause` : ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
-
-- `/resume` : ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ.
-
-- `/skip` : sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴀɴᴅ sᴛᴀʀᴛ sᴛʀᴇᴀᴍɪɴɢ ᴛʜᴇ ɴᴇxᴛ ᴛʀᴀᴄᴋ ɪɴ ǫᴜᴇᴜᴇ.
-
-- `/end ᴏʀ /stop` : ᴄʟᴇᴀʀs ᴛʜᴇ ǫᴜᴇᴜᴇ ᴀɴᴅ ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ.
-
-To get an instant result do /reboot in chat of logger .
-  
-![image](https://graph.org/file/801e199f756d83cb4d7f5-068bb84543385c04b6.jpg)
-
-
-### Channel Support
-Bot also Supported with Channels. Just add bot and assistant to the Channel as Admin. </details>
-
-### Credits : 
-
-- [Shashank Shukla](https://github.com/itzshukla)
-- [Telegram](https://t.me/SHASHANKDEVS)
-- Everyone In This Journey !
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF69B4&height=120&section=footer"/>
+</p>
