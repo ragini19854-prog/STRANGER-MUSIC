@@ -10,6 +10,20 @@
 # without prior written permission from the author.
 #
 # ❤️ Made with dedication and love by ItzShukla
+# ---------------------------------------
+
+# -----------------------------------------------
+# 🔸 StrangerMusic Project
+# 🔹 Developed & Maintained by: Shukla (https://github.com/itzshukla)
+# 📅 Copyright © 2022 – All Rights Reserved
+#
+# 📖 License:
+# This source code is open for educational and non-commercial use ONLY.
+# You are required to retain this credit in all copies or substantial portions of this file.
+# Commercial use, redistribution, or removal of this notice is strictly prohibited
+# without prior written permission from the author.
+#
+# ❤️ Made with dedication and love by ItzShukla
 # -----------------------------------------------
 from SHUKLAMUSIC import app
 from pyrogram.errors import RPCError
@@ -79,27 +93,21 @@ def circle(pfp, size=(500, 500), brightness_factor=10):
 
 
 def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
-    background = Image.open("SHUKLAMUSIC/assets/welcome2.png")
+    background = Image.open("SHUKLAMUSIC/assets/wel2.png")
     pfp = Image.open(pic).convert("RGBA")
-    pfp = circle(
-        pfp,
-        brightness_factor=brightness_factor
-    )
+    pfp = circle(pfp, brightness_factor=brightness_factor)
     pfp = pfp.resize((500, 500))
     draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype(
-        "SHUKLAMUSIC/assets/font.ttf",
-        size=60
-    )
-
-# Updated ID position to (630, 450)
-draw.text((630, 450), f'ID: {id}', fill=(255, 255, 255), font=font)
-
-# Updated PFP position to (48, 88)
-pfp_position = (48, 88)
-background.paste(pfp, pfp_position, pfp)
-background.save(f"downloads/welcome#{id}.png")
-return f"downloads/welcome#{id}.png"
+    font = ImageFont.truetype('SHUKLAMUSIC/assets/font.ttf', size=60)
+    
+    # Updated ID position to (630, 450)
+    draw.text((630, 450), f'ID: {id}', fill=(255, 255, 255), font=font)
+    
+    # Updated PFP position to (48, 88)
+    pfp_position = (48, 88)
+    background.paste(pfp, pfp_position, pfp)
+    background.save(f"downloads/welcome#{id}.png")
+    return f"downloads/welcome#{id}.png"
 
 
 @app.on_message(filters.command("welcome") & ~filters.private)
@@ -193,3 +201,4 @@ async def greet_new_member(_, member: ChatMemberUpdated):
 
         except Exception as e:
             LOGGER.error(e)
+
