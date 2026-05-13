@@ -21,23 +21,23 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = int(getenv("36326629"))
-API_HASH = getenv("823e6e8c081fe363e6d739b39dc19e07")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "@II_YOUR_MADARA_II")
-BOT_USERNAME = getenv("BOT_USERNAME", "SapnaMusicRobot")
-BOT_NAME = getenv("BOT_NAME", "SAPNA")
-ASSUSERNAME = getenv("ASSUSERNAME", "KHWAAISH_HOON")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "II_YOUR_MADARA_II")
+BOT_USERNAME = getenv("BOT_USERNAME", "TEST_X_CLONE_bot")
+BOT_NAME = getenv("BOT_NAME", "TEST X CLONE")
+ASSUSERNAME = getenv("ASSUSERNAME", ". • ❰ 𝐃𝐄𝐅𝐀𝐔𝐋𝐓𝐄𝐑𝐒 ❱")
 
 # MongoDB
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", -1002018556839))
-OWNER_ID = int(getenv("OWNER_ID", 6762113050))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003774441740))
+OWNER_ID = int(getenv("OWNER_ID", 8441236350))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
