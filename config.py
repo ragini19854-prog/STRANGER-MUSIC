@@ -50,8 +50,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MADARABITSUPPROT412")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+8SNYdrdX-hE3Y2E1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+n7E6Q19lY0cxNDBl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+1NRRqUd1replNTM1")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -93,28 +93,24 @@ DEBUG_IGNORE_LOG = True
 
 ###### IMAGE URLS ######
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/nzhqh9.png")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/oh07fz.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/vbdda6.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/5go4t6.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/l2id2z.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/uqzcnl.png"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/uqzcnl.png"
 STREAM_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
 SOUNCLOUD_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/l2id2z.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
 SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
 SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/uqzcnl.png"
 
 
 SHASHANK_IMG = [
-    "https://files.catbox.moe/dw0as6.jpg",
-    "https://files.catbox.moe/t2m1pv.jpg",
-    "https://files.catbox.moe/lsbotb.jpg",
-    "https://files.catbox.moe/huuy1f.jpg",
-    "https://files.catbox.moe/7vfivr.jpg",
-    "https://files.catbox.moe/dqtuv2.jpg",
-    "https://files.catbox.moe/ac3tzn.jpg"
+    "https://files.catbox.moe/5go4t6.jpg",
+    "https://files.catbox.moe/vbdda6.jpg",
+    "https://files.catbox.moe/l2id2z.jpg"
 ]
 
 
