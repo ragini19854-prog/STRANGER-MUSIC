@@ -82,7 +82,7 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
     background = Image.open("SHUKLAMUSIC/assets/welcome2.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp, brightness_factor=brightness_factor)
-    pfp_size = (285, 285)
+    pfp_size = (250,250)
     draw = ImageDraw.Draw(background)
     font = ImageFont.truetype('SHUKLAMUSIC/assets/font.ttf', size=40)
     
@@ -90,7 +90,7 @@ def welcomepic(pic, user, chatname, id, uname, brightness_factor=1.3):
     draw.text((690, 470), f'ID: {id}', fill=(255, 255, 255), font=font)
     
     # Updated PFP position to (48, 88)
-    pfp_position = (78, 105)
+    pfp_position = (92, 98)
     background.paste(pfp, pfp_position, pfp)
     background.save(f"downloads/welcome#{id}.png")
     return f"downloads/welcome#{id}.png"
